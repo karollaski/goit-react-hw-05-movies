@@ -1,0 +1,27 @@
+.heading {
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #9b9494;
+  background-color: #f1f1eb;
+}
+
+.navigation {
+  display: flex;
+  gap: 1rem;
+}
+
+.navigationItem {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 250ms;
+}
+
+.navigationItem:hover {
+  color: #fda500;
+}
+
+.navigationItem:active {
+  color: #fda500;
+}

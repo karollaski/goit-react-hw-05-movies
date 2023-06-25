@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.searchText {
+  font-weight: 500;
+}
+
+.input {
+  height: 2rem;
+  border: 1px solid #9b9494;
+  border-radius: 10px;
+}

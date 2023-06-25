@@ -1,0 +1,17 @@
+.moviesList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.moviesListItem {
+  text-decoration: none;
+  color: #000;
+  transition-property: color;
+  transition-duration: 250ms;
+}
+
+.moviesListItem:hover {
+  color: #fda500;
+}

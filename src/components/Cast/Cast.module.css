@@ -1,0 +1,17 @@
+.wrapper {
+  border-top: 1px solid #000;
+}
+
+.actorsList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.actorsListItem {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
